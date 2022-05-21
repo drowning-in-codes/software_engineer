@@ -5,20 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cf36d83-964c-4b2d-8a43-e11c68919d9a" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/GUI/login_register.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/pexels-kevin-ku-577585.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/pexels-lukas-574070.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/pexels-pixabay-270348.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/pexels-pixabay-270360.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/resource_rc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui_py/login_register.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/main.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/animation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui_py/login.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI/login_register.ui" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/login_register.ui" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.ui" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/login.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login_form.ui" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/login_form.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myui.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myui.ui" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/myui.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/resource.qrc" beforeDir="false" afterPath="$PROJECT_DIR$/resource/resource.qrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_py/login_register.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui_py/login_register.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +61,27 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.demo">
+    <configuration name="animation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="se_exercise" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo/animation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="se_exercise" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,6 +127,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.demo" />
+        <item itemvalue="Python.animation" />
         <item itemvalue="Python.login_register" />
       </list>
     </recent_temporary>

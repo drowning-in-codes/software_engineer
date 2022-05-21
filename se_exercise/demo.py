@@ -7,16 +7,17 @@ from qt_material import apply_stylesheet
 from PyQt5.QtWidgets import QMainWindow
 from PyQt5.QtGui import QMouseEvent
 
-
 class MyWindow(QMainWindow, Ui_MainWindow):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.setupUi(self)
 
         self.setAttribute(Qt.WA_TranslucentBackground)  # 窗体背景透明
-        self.setWindowFlags(Qt.WindowStaysOnTopHint | Qt.FramelessWindowHint | Qt.Tool)  # 窗口置顶，无边框，在任务栏不显示图标
+        self.setWindowFlag(Qt.FramelessWindowHint)  # 无边框
+
         self.pushButton.clicked.connect(self.change_widget2)
         self.pushButton_2.clicked.connect(self.change_widget3)
+        self.widget_3.hide()
 
     def mouseMoveEvent(self, e: QMouseEvent):  # 重写移动事件
         if self._tracking:
@@ -34,11 +35,6 @@ class MyWindow(QMainWindow, Ui_MainWindow):
             self._startPos = None
             self._endPos = None
 
-    # ui = Ui_MainWindow()
-    # ui.setupUi(window)
-    #
-    # ui.widget_3.hide()
-
     def change_widget3(self):
         self.widget_2.hide()
         self.widget_3.show()
@@ -48,16 +44,11 @@ class MyWindow(QMainWindow, Ui_MainWindow):
         self.widget_2.show()
 
 
-
-
 # create the application and the main window
 app = QtWidgets.QApplication(sys.argv)
-
 window = MyWindow()
-
 window.show()
 # setup stylesheet
 # apply_stylesheet(app, theme='dark_teal.xml')
-
 # run
-app.exec()
+sys.exit(app.exec())

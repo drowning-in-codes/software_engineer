@@ -9,17 +9,14 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-from PyQt5.QtGui import QMouseEvent
 
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(1266, 676)
-
-        MainWindow.setWindowFlags(QtCore.Qt.FramelessWindowHint)
-        # MainWindow.setAttribute(QtCore.Qt.WA_TranslucentBackground)
-
+        MainWindow.setWindowOpacity(1.0)
+        MainWindow.setAnimated(False)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.label = QtWidgets.QLabel(self.centralwidget)
@@ -205,6 +202,4 @@ class Ui_MainWindow(object):
         self.lineEdit_4.setPlaceholderText(_translate("MainWindow", "输入密码"))
         self.lineEdit_5.setPlaceholderText(_translate("MainWindow", "确认密码"))
         self.pushButton_5.setText(_translate("MainWindow", "注册"))
-
-
 import resource.resource_rc
