@@ -5,11 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cf36d83-964c-4b2d-8a43-e11c68919d9a" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/login.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login_form.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/luis-gomes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/resource.qrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/login_register.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource/pexels-kevin-ku-577585.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource/pexels-lukas-574070.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource/pexels-pixabay-270348.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource/pexels-pixabay-270360.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource/resource_rc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui_py/login_register.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.ui" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/login.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login_form.ui" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/login_form.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myui.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myui.ui" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/myui.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/resource.qrc" beforeDir="false" afterPath="$PROJECT_DIR$/resource/resource.qrc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,21 +46,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "F:/software_engineer/se_exercise/resource",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/software_engineer/se_exercise/resource&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.externalTools&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\software_engineer\se_exercise\resource" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\software_engineer\se_exercise\ui_py" />
+      <recent name="F:\software_engineer\se_exercise\resource" />
+      <recent name="F:\software_engineer\se_exercise" />
+      <recent name="F:\software_engineer\se_exercise\GUI" />
+      <recent name="F:\software_engineer\se_exercise\ui设计界面" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.demo">
     <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="se_exercise" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -73,9 +89,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="login_register" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="se_exercise" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ui_py" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ui_py/login_register.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.demo" />
+        <item itemvalue="Python.login_register" />
       </list>
     </recent_temporary>
   </component>

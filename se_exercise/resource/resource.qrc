@@ -1,5 +1,7 @@
 <RCC>
   <qresource prefix="img">
     <file>luis-gomes.jpg</file>
+    <file>pexels-kevin-ku-577585.jpg</file>
+    <file>pexels-lukas-574070.jpg</file>
   </qresource>
 </RCC>
