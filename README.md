@@ -1,5 +1,5 @@
 # software_engineer
 software engineer project
 
-techs:Vue+flask+mysql
+techs:python qt
 
