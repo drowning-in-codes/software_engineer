@@ -29,7 +29,7 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
-在Back1/myback1/myapp/views.py中，每一个路径即为一个调用，可以调用后端函数（尚未完善）：
+在Back1/myback1/myapp/views.py中，每一个路径即为一个调用，可以调用后端函数,暂无权限管理，其余全都写好了：
 ```html
 <a href="/system/borrowreturn/" type="button" class="btn btn-primary " style="float:right;"><i
                             class="fa fa-plus" aria-hidden="true" style="margin-right: 6px;"></i>还书</a>
