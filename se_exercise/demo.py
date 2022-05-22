@@ -2,12 +2,13 @@ import sys
 from PyQt5 import QtWidgets
 from PyQt5.QtCore import QPoint, Qt
 
-from ui_py.login_register import Ui_MainWindow
+from model import Login_Window
 from qt_material import apply_stylesheet
 from PyQt5.QtWidgets import QMainWindow
 from PyQt5.QtGui import QMouseEvent
 
-class MyWindow(QMainWindow, Ui_MainWindow):
+
+class MyWindow(QMainWindow, Login_Window):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.setupUi(self)

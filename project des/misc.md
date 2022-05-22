@@ -1,9 +1,13 @@
-vue项目使用cli创建,没有使用vite.
 
-在windows上,使用
 
-```bash
-winpty vue.cmd create <project-name>
-```
+### 项目进展
 
-创建项目,避免无法选择.
+5.21 开始 查询资料
+
+
+
+
+
+
+
+### 记录项目中遇到的问题
