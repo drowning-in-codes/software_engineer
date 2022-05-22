@@ -141,7 +141,8 @@ def recordadd(request):
     '''
     联合查询此用户还没有做过的题得到question_list
     '''
-    question_list = 1111;
+    user_obj = models.userinfo.objects.get(account=user_account)
+    question_list = models.questioninfo.exclude(id_in=[record.question_id for record in user_obj.record_set.all()])
 
     if request.method == 'POST':
         userid = request.POST.get('user_id')
@@ -150,7 +151,6 @@ def recordadd(request):
         key = request.POST.get('key')
         models.record.objects.create(user_id=userid, question_id=questionid, evaluate=evaluate,key=key)
         return redirect('borrowlist')
-
 
     return render(request, 'record_add.html', {'questionlist':question_list,'account':user_account})
 
