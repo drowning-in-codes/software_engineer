@@ -24,18 +24,18 @@ urlpatterns = [
     #问题信息
     path('questionlist/', views.questionlist),
     path('questionadd/', views.questionadd),
-    path('questionedit/', views.questionedit),
-    path('questiondel', views.questiondel),
+    path('questionedit/<int:id>/', views.questionedit),
+    path('questiondel/<int:id>/', views.questiondel),
 
     #用户信息
     path('userlist/', views.userlist),
-    path('useredit/',views.useredit),
+    path('useredit/<int:id>/',views.useredit),
     path('useradd/', views.useradd),
-    path('userdel', views.userdel),
+    path('userdel/<int:id>/', views.userdel),
 
     #做题记录
     path('recordlist/',views.recordlist),
     path('recordadd/',views.recordadd),
-    path('recorddel/', views.recorddel),
-    path('recordedit',views.recordedit),
+    path('recorddel/<int:id>/', views.recorddel),
+    path('recordedit/<int:id>/',views.recordedit),
 ]
