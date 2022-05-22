@@ -3,7 +3,7 @@ software engineer project
 
 techs:python qt
 
-#Back-end
+# Back-end
 ## 生成数据库
 首先要打开自己的mysql，然后在Back1/myback1/myback1/settings.py进行如下修改
 ```shell
