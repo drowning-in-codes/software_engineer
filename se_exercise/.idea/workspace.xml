@@ -5,28 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cf36d83-964c-4b2d-8a43-e11c68919d9a" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/GUI/Memu.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/全屏.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/关闭2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/缩小.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/设置.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utility/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project des/misc.md" beforeDir="false" afterPath="$PROJECT_DIR$/../project des/misc.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/225_1.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/login_register.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/login_regiserView.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../info/开发项目的一些细节.md" beforeDir="false" afterPath="$PROJECT_DIR$/../info/开发项目的一些细节.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GUI/main.ui" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/main.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI/login_register.ui" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/login_register.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/database.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/resource.qrc" beforeDir="false" afterPath="$PROJECT_DIR$/resource/resource.qrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/resource_rc.py" beforeDir="false" afterPath="$PROJECT_DIR$/resource/resource_rc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui_py/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui_py/login_register.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/login_register.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tools/js points/promise.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tools/tools.md" beforeDir="false" afterPath="$PROJECT_DIR$/../tools/tools.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/login_register.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/login_register.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/luis-gomes.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resource/img/luis-gomes.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/pexels-kevin-ku-577585.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resource/img/pexels-kevin-ku-577585.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/pexels-lukas-574070.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resource/img/登录图.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/pexels-pixabay-270348.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resource/img/pexels-pixabay-270348.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/pexels-pixabay-270360.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resource/img/pexels-pixabay-270360.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/resource.qrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/resource_rc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/全屏.png" beforeDir="false" afterPath="$PROJECT_DIR$/resource/icon/全屏.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/关闭2.png" beforeDir="false" afterPath="$PROJECT_DIR$/resource/icon/关闭2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/缩小.png" beforeDir="false" afterPath="$PROJECT_DIR$/resource/icon/缩小.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/设置.png" beforeDir="false" afterPath="$PROJECT_DIR$/resource/icon/设置.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,29 +59,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "F:/software_engineer/se_exercise/resource",
-    "settings.editor.selected.configurable": "preferences.externalTools"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/software_engineer/se_exercise/resource&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\software_engineer\se_exercise\resource" />
       <recent name="F:\software_engineer\se_exercise\GUI" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\software_engineer\se_exercise\resource\icon" />
+      <recent name="F:\software_engineer\se_exercise\resource\img" />
       <recent name="F:\software_engineer\se_exercise\ui_py" />
       <recent name="F:\software_engineer\se_exercise\resource" />
       <recent name="F:\software_engineer\se_exercise" />
-      <recent name="F:\software_engineer\se_exercise\GUI" />
-      <recent name="F:\software_engineer\se_exercise\ui设计界面" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.config">
+  <component name="RunManager" selected="Python.demo">
     <configuration name="animation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="se_exercise" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,6 +145,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="login_regiserView" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="se_exercise" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/views" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/views/login_regiserView.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="login_register" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="se_exercise" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -163,8 +189,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.config" />
         <item itemvalue="Python.demo" />
+        <item itemvalue="Python.login_regiserView" />
+        <item itemvalue="Python.config" />
         <item itemvalue="Python.animation" />
         <item itemvalue="Python.login_register" />
       </list>
@@ -194,5 +221,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/aidoru" />
+    </ignored-roots>
   </component>
 </project>

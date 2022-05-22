@@ -29,3 +29,9 @@ pyqt [PyQt5 Tutorial (tutorialspoint.com)](https://www.tutorialspoint.com/pyqt5/
 ### 具体设计
 
 [Python/PyQt5/Qtdesigner设计登录界面——包括登录和注册界面切换_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Li4y1m79p?spm_id_from=333.337.search-card.all.click)
+
+
+
+### 视频教程
+
+布局设计 qsshttps://www.bilibili.com/video/BV1cJ411R7bP

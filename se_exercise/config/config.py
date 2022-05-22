@@ -17,3 +17,9 @@ class WindowConstants:
 
     # WINDOW_WIDTH = 680
     # WINDOW_HEIGHT = 400
+
+
+class LOGINConstants:
+    FORM_TITLE = "登陆界面"
+    FORM_WIDTH = 680
+    FORM_HEIGHT = 400

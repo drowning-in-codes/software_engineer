@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1266</width>
-    <height>676</height>
+    <width>943</width>
+    <height>628</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -30,7 +30,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-image: url(:/img/pexels-lukas-574070.jpg);
+     <string notr="true">border-image: url(:/img/登录图.jpg);
 border-top-left-radius:50px;
 </string>
     </property>
@@ -368,9 +368,7 @@ border-radius:8px;</string>
    <zorder>widget</zorder>
   </widget>
  </widget>
- <resources>
-  <include location="../resource/resource.qrc"/>
- </resources>
+ <resources/>
  <connections>
   <connection>
    <sender>pushButton_4</sender>
